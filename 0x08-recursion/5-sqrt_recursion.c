@@ -6,18 +6,18 @@
  * Return: 0
  */
 
-int _sqrt(int n, int i);
 int _sqrt_recursion(int n)
 {
 	return (_sqrt(n, 1));
 }
 /**
  * _sqrt - function that prints natural square root of a number
- * @n: intenger
- * @i: intenger
+ * @n: integer
+ * @i: iterate number
  *
  * Return:0
  */
+int _sqrt(int n, int i);
 int _sqrt(int n, int i)
 {
 	int sqrt = i * i;
