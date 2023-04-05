@@ -20,10 +20,10 @@ int is_prime_number(int n)
  */
 int prime(int n, int i)
 {
-	if (n == b)
+	if (n == i)
 		return (1);
-	else if (a % b == 0)
+	else if (n % i == 0)
 		return (0);
-	return (prime(a, b + 1));
+	return (prime(n, i + 1));
 }
 
