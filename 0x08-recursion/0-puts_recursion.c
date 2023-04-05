@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
- * _puts_recursion - function that prints a string, followed by a new line
- * @s: string value
+ * _puts_recursion - Prints a string followed by a new line
+ * @s: string
  *
- * Return: 0
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
 void _puts_recursion(char *s)
 {
