@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * wildcmp - compares two strings and returns and check whether they are indetical
+ * wildcmp - compares two strings
  * @s1: string one
- * s2: string two
+ * @s2: string two
  *
  * Return: 1 on success
  */
