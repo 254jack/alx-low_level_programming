@@ -4,7 +4,7 @@
 #include <ctype.h>
 #include <string.h>
 /**
- * _strchr - function that locates a char in a string
+ * _abs - function that locates a char in a string
  * @n: first value - char
  *
  * Return: char with result
