@@ -3,7 +3,14 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
+/**
+ * _strchr - function that copies a string
+ * @dest: first value - char
+ * @src: second value - char
+ *
+ * Return: char with result
+ */
 char *_strcpy(char *dest, char *src)
 {
-	return strcpy(dest, src);
+	return (dest, src);
 }
