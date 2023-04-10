@@ -4,7 +4,7 @@
 #include <ctype.h>
 #include <string.h>
 /**
- * _strchr - function that puts string
+ * _puts - function that puts string
  * @s: first value - char
  *
  * Return: char with result
