@@ -4,7 +4,7 @@
 #include <ctype.h>
 #include <string.h>
 /**
- * _strchr - function that locates an alphabet
+ * _isalpha - function that locates an alphabet
  * @c: second value - char
  *
  * Return: char with result
