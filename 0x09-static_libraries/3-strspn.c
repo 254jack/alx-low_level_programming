@@ -4,7 +4,7 @@
 #include <ctype.h>
 #include <string.h>
 /**
- * _strchr - function that locates a char in a string
+ * _strspn - function that locates a char in a string
  * @s: first value - char
  * @accept: second value - char
  *
