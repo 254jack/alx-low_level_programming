@@ -4,7 +4,7 @@
 #include <ctype.h>
 #include <string.h>
 /**
- * _strchr - function that locates a char in a string
+ * _strstr - function that locates a char in a string
  * @haystack: first value - char
  * @needle: second value - char
  *
