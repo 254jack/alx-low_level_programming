@@ -4,7 +4,7 @@
 #include <ctype.h>
 #include <string.h>
 /**
- * _strchr - function that copies a string
+ * _strcpy - function that copies a string
  * @dest: first value - char
  * @src: second value - char
  *
