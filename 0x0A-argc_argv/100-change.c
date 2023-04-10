@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
-* main - prints min number of coins to make change
+* main - prints minimum number of coins to make change
 * @argc: arguement count
 * @argv: array of pointers to arguement strings
 * Return: 0
