@@ -1,13 +1,13 @@
 #include <stdio.h>
 /**
- * main - the main function
- * @argv: Char
- * @argc: char to print
- * Return: 0
+ * main - check the code for Holberton School students.
+ * @argv: The character to print
+ * @argc: The character to print
+ * Return: Always 0.
  */
 int main(int argc, char *argv[])
 {
 	argv = argv;
-	printf("d\n", argc -1)
-		return (0);
+	printf("%d\n", argc - 1);
+	return (0);
 }
