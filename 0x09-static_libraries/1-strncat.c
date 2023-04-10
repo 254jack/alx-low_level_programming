@@ -4,8 +4,7 @@
 #include <ctype.h>
 #include <string.h>
 /**
-* _strcat - A function that concatenates two strings.
-*
+* _strncat - a function that concatenates two strings
 *@dest: output dest
 *@src: input source
 *
