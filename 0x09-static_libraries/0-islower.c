@@ -5,7 +5,7 @@
 #include <string.h>
 /**
 * _islower - function that returns the lower
-* @c: int 
+* @c: int
 *
 * Return: 0
 */
