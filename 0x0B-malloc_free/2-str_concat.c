@@ -1,10 +1,10 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * str_concat - get ends of input and add together for size
- * @s1: input one to concat
- * @s2: input two to concat
- * Return: concat of s1 and s2
+ * str_concat - concatenenates two strings
+ * @s1: first input
+ * @s2: second input
+ * Return: 0
  */
 char *str_concat(char *s1, char *s2)
 {
