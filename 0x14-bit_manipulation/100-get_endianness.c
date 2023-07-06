@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * get_endianness - a function that checks if a machine is little 
- * or big endian
+ * get_endianness - a function that checks if a machine is little or big endian
+ *
  * Return: 0
  */
 int get_endianness(void)
