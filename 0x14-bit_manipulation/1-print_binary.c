@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * print_binary - prints the binary equivalent of a decimal number
- * @n: number to print in binary
+ * print_binary - a function that prints the binary equivalent of 
+ * a decimal number
+ * @n: binary number
  */
 void print_binary(unsigned long int n)
 {
