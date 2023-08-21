@@ -1,4 +1,5 @@
 #include "main.h"
+#include <unistd.h>
 /**
  * _putchar - a putchar function
  * @c: character
@@ -6,7 +7,9 @@
  */
 int _putchar(char c)
 {
+		return (write(1, &c, 1));
 }
+
 /**
  * _islower - a islower function
  * @c: character
@@ -14,6 +17,14 @@ int _putchar(char c)
  */
 int _islower(int c)
 {
+	if ('a' <= c && c <= 'z')
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
 /**
  * _isalpha - a isalpha function
@@ -23,6 +34,18 @@ int _islower(int c)
  */
 int _isalpha(int c)
 {
+	if ('A' <= c && c <= 'Z')
+	{
+		return (1);
+	}
+	if ('a' <= c && c <= 'z')
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
 /**
  * _abs - a abs function
@@ -32,6 +55,15 @@ int _isalpha(int c)
  */
 int _abs(int n)
 {
+	if (n >= 0)
+	{
+		return (n);
+	}
+	if (n < 0)
+	{
+		return ((n * -1));
+	}
+	return (0);
 }
 /**
  * _isupper - a isupper function
@@ -41,4 +73,8 @@ int _abs(int n)
  */
 int _isupper(int c)
 {
+	if ('A' <= c && c <= 'Z')
+		return (1);
+	else
+		return (0);
 }
