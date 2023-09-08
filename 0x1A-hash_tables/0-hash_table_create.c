@@ -3,7 +3,7 @@
 /**
  * hash_table_create - Ca function that creates a hash table
  * @size: size of the array
- * Return: NULL if fail 
+ * Return: NULL if fail
  */
 hash_table_t *hash_table_create(unsigned long int size)
 {
